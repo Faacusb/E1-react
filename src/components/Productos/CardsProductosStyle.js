@@ -21,13 +21,14 @@ export const CardsContainer = styled.div`
     gap: 20px;
     @media (max-width:968px){
         flex-direction: column;
+        width: 80%;
         height: auto;
     }
     padding-top: 10px;
     padding-bottom: 20px;
 
     @media (max-width: 576px) {
-        width: 90%;
+        width: 85%;
     }
 
 
@@ -53,7 +54,7 @@ export const CardsProductoss = styled.div`
     }
 
     @media (max-width:576px) {
-        width: 70%;
+        width: 100%;
     }
 
 
