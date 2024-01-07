@@ -7,8 +7,9 @@ export const NavbarContainerStyled = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 1rem 4rem;
+    
     img{
-        width: 15%;
+        width: 28%;
     }
     @media (max-width: 768px){
         padding: 1rem 2rem;

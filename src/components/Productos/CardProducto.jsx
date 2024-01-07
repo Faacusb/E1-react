@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 function CardProducto() {
   return (
-    <div>CardProducto</div>
+    <div><h2>hola</h2></div>
   )
 }
 
