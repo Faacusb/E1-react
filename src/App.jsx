@@ -1,10 +1,11 @@
-
-import { Footer, FooterContainer } from "./components/Footer/FooterStyles";
+// import Categorias from "./components/Categorias/Categorias";
+import Footer from "./components/Footer/Footer";
+import { FooterContainer } from "./components/Footer/FooterStyles";
 import Hero from "./components/Hero/Hero";
-import Layout from "./components/Layou  t/Layout";
+import Layout from "./components/Layout/Layout";
 import Navbar from "./components/Navbar/Navbar";
-// import  SectionProductos from "./components/Productos"; //QUE ES ESTO???
-import {CardsProductos} from "./components/Productos/CardsProductos";
+import CardsProductos from "./components/Productos/CardsProductos";
+import { CardsContainer} from "./components/Productos/CardsProductosStyle";
 
 
 function App() {
@@ -14,12 +15,9 @@ function App() {
       <Layout>
         <Hero />
         {/* <Categorias/> */}
-        <SectionProductos>
-        {/* <CardsContainer> */}
-        <h1>Nuestros Productos.</h1>
+        <CardsContainer>
           <CardsProductos/>
-        </SectionProductos>
-        {/* </CardsContainer> */}
+        </CardsContainer>
           
       
 
@@ -32,7 +30,3 @@ function App() {
 }
 
 export default App;
-
-//INTENTAPUSHEAR DE NUEVO A 
-
-//MOSTRAME EL REPOSITORIO DE GIT 
