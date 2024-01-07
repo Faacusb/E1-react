@@ -40,4 +40,4 @@ function CardsProductos() {
   );
 }
 
-export default CardsProductos;
+export {CardsProductos};
