@@ -5,7 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Layout from "./components/Layout/Layout";
 import Navbar from "./components/Navbar/Navbar";
 import CardsProductos from "./components/Productos/CardsProductos";
-import  SectionProductos from "./components/Productos/CardsProductosStyle";
+// import  SectionProductos from "./components/Productos/CardsProductosStyle";
 
 
 function App() {
