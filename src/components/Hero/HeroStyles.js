@@ -16,6 +16,10 @@ export const HeroContainerStyled = styled.div`
     @media (max-width:968px){
         flex-direction: column;
     }
+    @media (max-width: 576px) {
+        width: 80%;
+        
+    }
 `;
 
 export const HeroTextContainerStyled = styled.div`
@@ -43,6 +47,16 @@ export const HeroTextContainerStyled = styled.div`
         width: 80%;
         align-items: center;
         text-align: center;
+    }
+
+    @media (max-width:576px) {
+        width: 85%;
+        h1 {
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
     }
 `;
 

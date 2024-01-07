@@ -14,6 +14,9 @@ export const NavbarContainerStyled = styled.div`
     @media (max-width: 768px){
         padding: 1rem 2rem;
     }
+    @media (max-width: 576px) {
+        width: 100%;
+    }
 `;
 
 export const LinksContainerStyled = styled.div`
