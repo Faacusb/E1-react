@@ -1,11 +1,10 @@
-// import Categorias from "./components/Categorias/Categorias";
-// import Footer from "./components/Footer/Footer";
+
 import { Footer, FooterContainer } from "./components/Footer/FooterStyles";
 import Hero from "./components/Hero/Hero";
 import Layout from "./components/Layout/Layout";
 import Navbar from "./components/Navbar/Navbar";
 import  SectionProductos from "./components/Productos";
-import CardsProductos from "./components/Productos/CardsProductos";
+import {CardsProductos} from "./components/Productos/CardsProductos";
 
 
 function App() {
@@ -33,3 +32,5 @@ function App() {
 }
 
 export default App;
+
+//INTENTAPUSHEAR DE NUEVO A VERCEL
