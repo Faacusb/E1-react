@@ -1,11 +1,11 @@
 // import Categorias from "./components/Categorias/Categorias";
-import Footer from "./components/Footer/Footer";
-import { FooterContainer } from "./components/Footer/FooterStyles";
+// import Footer from "./components/Footer/Footer";
+import { Footer, FooterContainer } from "./components/Footer/FooterStyles";
 import Hero from "./components/Hero/Hero";
 import Layout from "./components/Layout/Layout";
 import Navbar from "./components/Navbar/Navbar";
 import CardsProductos from "./components/Productos/CardsProductos";
-import { CardsContainer} from "./components/Productos/CardsProductosStyle";
+import  SectionProductos from "./components/Productos/CardsProductosStyle";
 
 
 function App() {
@@ -15,9 +15,12 @@ function App() {
       <Layout>
         <Hero />
         {/* <Categorias/> */}
-        <CardsContainer>
+        <SectionProductos>
+        {/* <CardsContainer> */}
+        <h1>Nuestros Productos.</h1>
           <CardsProductos/>
-        </CardsContainer>
+        </SectionProductos>
+        {/* </CardsContainer> */}
           
       
 
