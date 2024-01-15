@@ -6,6 +6,10 @@ export const FooterContainer = styled.div`
     height: auto;
     background-color: #0054DC;
     width: 100%;
+    @media (max-width: 576px){
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 export const TextFooter = styled.div`
