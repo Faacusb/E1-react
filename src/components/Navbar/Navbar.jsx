@@ -5,7 +5,6 @@ import {
   UserNavStyled,
   UserContainerStyled,
   SpanStyled,
-  MenuContainerStyled,
   HomeContainerStyled,
 } from "./NavbarStyles";
 

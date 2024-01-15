@@ -1,8 +1,25 @@
 import React from 'react'
+import { FooterContainer, TextFooter, RedesFooter } from './FooterStyles'
+import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome';
+import {faFacebook, faXTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <FooterContainer>
+      <RedesFooter>
+       <span><FontAwesomeIcon icon={faFacebook}/> Eclipsun</span> 
+
+        <span><FontAwesomeIcon icon={faXTwitter}/> Eclipsun</span>
+
+        <span><FontAwesomeIcon icon={faInstagram}/> Eclipsun</span>  
+      </RedesFooter>
+
+      <TextFooter>
+        <h3> Todos los derechos reservados.</h3>
+        
+      </TextFooter>
+        
+    </FooterContainer>
   )
 }
 
