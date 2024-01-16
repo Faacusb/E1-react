@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavbarContainerStyled = styled.div`
     height: 100px;
-    background-color: white;
+    background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,6 +93,13 @@ export const UserImageStyled = styled.img`
 export const SpanStyled = styled.span` 
     &:hover {
         text-decoration: underline;
+    }
+`;
+
+export const Burguer = styled.div`
+    svg:last-child{
+        font-size: 25px;
+        color: red;
     }
 `;
 

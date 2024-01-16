@@ -6,12 +6,14 @@ import {
   UserContainerStyled,
   SpanStyled,
   HomeContainerStyled,
+  Burguer
 } from "./NavbarStyles";
 
 import EclipsunLogo from "../img/EclipsunLogo-unscreen.gif";
 import { FaUserAlt } from "react-icons/fa";
 import { HiHome } from "react-icons/hi";
-import { AiOutlineMenu } from "react-icons/ai";
+import {faBars} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
   return (
@@ -44,7 +46,9 @@ function Navbar() {
               <FaUserAlt/>
             </UserContainerStyled>
           </UserNavStyled>
-
+            <Burguer>
+              <FontAwesomeIcon icon={faBars}/>
+            </Burguer>
         </LinksContainerStyled>
       </NavbarContainerStyled>
     </div>

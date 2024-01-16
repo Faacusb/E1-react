@@ -4,7 +4,7 @@ export const FooterContainer = styled.div`
     display: flex;
     justify-content: space-around;
     height: auto;
-    background-color: #0054DC;
+    background-color: antiquewhite;
     width: 100%;
     @media (max-width: 576px){
         flex-direction: column;
