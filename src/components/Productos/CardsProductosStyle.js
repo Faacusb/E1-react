@@ -45,6 +45,7 @@ export const CardsProductoss = styled.div`
     justify-content: center;
     border-radius: 20px;
     background-color: whitesmoke;
+    cursor: pointer;
     img {
         width: 150px;
 
