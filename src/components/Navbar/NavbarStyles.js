@@ -15,7 +15,7 @@ export const NavbarContainerStyled = styled.div`
         padding: 1rem 2rem;
     }
     @media (max-width: 576px) {
-        width: 80%;
+        width: 83%;
     }
 `;
 
