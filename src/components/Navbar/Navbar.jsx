@@ -2,6 +2,7 @@ import {
   LinkContainerStyled,
   LinksContainerStyled,
   NavbarContainerStyled,
+  ImgLogoContain,
   UserNavStyled,
   UserContainerStyled,
   SpanStyled,
@@ -17,19 +18,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
   return (
-    <div>
+    // <div>
       <NavbarContainerStyled>
-        <div>
-          <a href="#">
+        <ImgLogoContain>
+        
+          
             <img src={EclipsunLogo} alt="Logo" />
-          </a>
-        </div>
+          
+        
+        </ImgLogoContain>
         <LinksContainerStyled>
           <HomeContainerStyled>
             <a href="#">
               <LinkContainerStyled>
                 <HiHome />
-                {/* icono */}
+                
               </LinkContainerStyled>
               Home
             </a>
@@ -40,9 +43,6 @@ function Navbar() {
 
           <UserNavStyled>
             <UserContainerStyled>
-              <SpanStyled>
-                {/* Iniciar Sesión */}
-              </SpanStyled>
               <FaUserAlt/>
             </UserContainerStyled>
           </UserNavStyled>
@@ -51,7 +51,7 @@ function Navbar() {
             </Burguer>
         </LinksContainerStyled>
       </NavbarContainerStyled>
-    </div>
+    // </div>
   );
 }
 

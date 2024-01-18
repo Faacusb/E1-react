@@ -2,22 +2,30 @@ import styled from "styled-components";
 
 export const NavbarContainerStyled = styled.div`
     height: 100px;
+    
     background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 4rem;
     
-    img{
-        width: 28%;
-    }
+    
     @media (max-width: 768px){
         padding: 1rem 2rem;
+
     }
     @media (max-width: 576px) {
-        width: 82%;
+        width: auto;
     }
 `;
+export const ImgLogoContain = styled.div`
+width: 50%;
+
+    img{
+            width: 100px;
+        }
+`;
+
 
 export const LinksContainerStyled = styled.div`
     color: white;
